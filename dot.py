@@ -1,0 +1,9 @@
+decimal_num= int(input("Enter the decimal value:\n"))
+binary_num=1
+i=1
+while(decimal_num != 0):
+    decimal_num = decimal_num//2
+    remainder = decimal_num % 2
+    binary_num= binary_num+remainder*(10**i)
+    i=i+1
+print("The binary equivalent=",binary_num)
