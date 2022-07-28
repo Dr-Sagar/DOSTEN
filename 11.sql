@@ -1,0 +1,2 @@
+SELECT * FROM Products
+WHERE Price BETWEEN 50 AND 60;
