@@ -1,0 +1,48 @@
+.nb{
+    background-color: aqua;
+    border-radius: 30px;
+}
+
+
+.nb li{
+    background-color: aqua;
+    float: left;
+    list-style: none;
+    padding: 6px;
+    margin: 2px  9px;
+    
+}
+
+
+
+.nb ul{
+    overflow: auto;
+    /* margin: auto; */
+}
+
+.nb li a{
+    padding: 6px;
+    /* margin-top: 6; */
+    text-decoration: none;
+}
+
+.nb li:hover{
+    background-color: rgb(20, 231, 231);
+}
+
+
+.scr{
+    margin: 0px 2px;
+    /* margin-top: 6px; */
+    /* border-radius: 30px; */
+    text-align: end;
+}
+
+
+
+.nb input{
+    border-radius: 30px;
+    width: 141px;
+    /* text-align: end; */
+    /* margin-bottom: 6px; */
+}

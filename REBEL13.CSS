@@ -1,0 +1,30 @@
+body{background-color:yellow;}
+
+
+<style>
+  p{
+    background-color:aqua;
+    height:100;
+    width:455px;
+    border-color:blueviolet;
+    border-width: 2px;
+    border-style: solid;
+    border-radius: 9px;
+}
+ #container{
+    background-color:rgb(194, 24, 216);
+    height:100;
+    width:455px;
+    border-color:rgb(194, 21, 21);
+    border-top:3px solid hsl(123, 88%, 49%);
+    border-bottom-left-radius:90px;
+}
+#df{
+
+    height: 1000px;;
+    width:4550px;
+   background-image:url('https://images.unsplash.com/photo-1553272725-086100aecf5e?ixid=MnwxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHw%3D&ixlib=rb-1.2.1&auto=format&fit=crop&w=900&q=60')
+   
+
+}
+</style>

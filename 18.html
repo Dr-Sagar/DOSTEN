@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <style>
+.k{
+    background-color:greenyellow;
+    
+}
+
+.l{
+    background-color:green;
+    width: 120px;
+    animation-name: r;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: alternate;
+    animation-timing-function: ease-in-out;
+    /* animation-delay: 3s; */
+    
+}
+
+
+.d{
+    background-color:red;
+    width: 120px;
+    height: 120px;
+    animation-name: s;
+    animation-duration: 2s;
+    animation-iteration-count: infinite;
+
+}
+
+
+
+
+
+
+@keyframes r {
+
+    from{
+        width: 120px;
+    }
+    to {
+        width: 400px;
+    }
+
+}
+
+@keyframes s {
+
+0%{
+    top: 0px;
+    left:0px;
+}
+25%{
+    top: 250px;
+    left:0px;
+}
+/* 50%{
+    top: 0px;
+    left: 250px; */
+/* } */
+75%{
+    top: 250px;
+    left:250px;
+
+}
+100%{
+    top: 0px;
+    left:250px;
+}
+
+}
+
+
+
+    </style>
+
+
+<div class="k">
+
+    <div class="l">
+        <h4>
+
+            This is a box
+        </h4>
+
+    </div>
+
+    <div class="l">
+        <h4>
+
+            This is a box
+        </h4>
+
+    </div>
+
+    <div class="l">
+        <h4>
+
+            This is a box
+        </h4>
+
+    </div>
+
+    <div class="d">
+        <h4>
+
+            This is a box
+        </h4>
+
+    </div>
+</div>
+
+
+
+
+
+
+</body>
+</html>

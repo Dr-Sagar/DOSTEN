@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>GRID_AREA</title>
+
+
+<style>
+
+    
+    .cont{
+    display: grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+    
+    'navbar navbar navbar navbars '
+    'section section section section  aside'
+    'footer  footer footer footer footer'
+
+    ;
+    
+    
+        grid-template-columns:repeat(4, 1fr);
+    }
+.box{
+    background-color: aquamarine;
+    border: 2px solid aqua;
+    grid-gap: 2px;
+    margin: 2%;
+}
+
+#navbar{
+    grid-area: navbar;
+}
+
+
+#selection{
+    grid-area: selection;
+}
+
+#aside{
+    grid-area: aside;
+}
+#footer{
+    grid-area: footer;
+}
+
+
+
+
+
+
+
+
+</style>    
+
+</head>
+<body>
+    
+
+
+        
+<div class="cont">
+
+    <!-- <div class="item"> -->
+
+
+        <div id="navbar" class="box"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Sed unde ea suscipit distinctio?   </div>
+        <div id="selection" class="box">      Lorem ipsum dolor sit amet consectetur adipisicing elit. Deleniti sit laboriosam
+            lorem400 architecto molestiae?</div>
+        <div id="aside" class="box"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi earum cupiditate tenetur adipisci!   </div>
+        <div id="footer" class="box"> Lorem ipsum dolor sit amet consectetur adipisicing lorem456elit. Eligendi earum cupiditate tenetur adipisci!   </div>
+
+        <div class="box">item1</div>
+        <div class="box">item2</div>
+        <div class="box">item3</div>
+        <div class="box">item4</div>
+        <div class="box">item5</div>
+        <div class="box">item6</div>
+        <div class="box">item7</div>
+        <div class="box">item8</div>
+        <div class="box">item9</div>
+        <div class="box">item10</div>
+        <div class="box">item11</div>
+        <div class="box">item12</div>
+    <!-- </div> -->
+</div>
+
+</body>
+</html>

@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+
+
+
+
+
+
+@media (max-width:1400px){
+    body{
+        display:block;
+        background-color: red;
+    }
+        }
+
+        @media (max-width:1000px){
+    body{
+        display:block;
+        background-color: rgb(101, 209, 29);
+    }
+        }
+
+        @media (max-width:700px){
+    body{
+        display:block;
+        background-color: rgb(56, 21, 216);
+        
+    }
+
+
+    
+.cont{
+    display:grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+
+
+    'navbar navbar navbar navbars'
+    'section section section section'
+    /* 'footer  footer footer footer footer' */
+    '    aside aside aside aside'
+
+    ;
+    
+    
+        grid-template-columns:repeat(4, 1fr);
+
+
+
+}
+        }
+        
+        @media (max-width:400px){
+    body{
+        display:block;
+        background-color: rgb(220, 235, 16);
+    }
+
+
+
+}
+
+
+
+
+.cont{
+    display:grid;
+    grid-gap: 1rem;
+    grid-template-areas:
+
+
+    'navbar navbar navbar navbars '
+    'section section section section  aside'
+    'footer  footer footer footer footer'
+
+    ;
+    
+    
+        grid-template-columns:repeat(4, 1fr);
+
+
+
+}
+
+    .bdr{
+        border :2px solid black;
+        background-color:green;
+        padding-top: 12px;
+
+
+    }
+
+
+
+
+
+    #navbar{
+    grid-area: navbar;
+}
+
+
+#selection{
+    grid-area: selection;
+}
+
+#aside{
+    grid-area: aside;
+}
+#footer{
+    text-align: center;
+    grid-area: footer;
+}
+
+
+
+
+
+
+
+
+</style>
+
+
+
+
+</head>
+<body>
+    
+
+
+
+<div class="cont">
+    <nav class="bdr">         Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eius illum, laborum impedit, corrupti sit adipisci iste sint excepturi, unde hic blanditiis quibusdam placeat error fugiat? Officiis neque quasi excepturi dicta velit eius assumenda?  </nav>
+    <section class="bdr">       Lorem ipsum dolor sit amet consectetur adipisicing elit. Repellendus eius illum, laborum impedit, corrupti sit adipisci iste sint excepturi, unde hic blanditiis quibusdam placeat error fugiat? Officiis neque quasi excepturi dicta velit eius assumenda?    </section>
+    <aside class="bdr">
+        <h2>Lorem ipsum dolor sit amet consectetur adipisicing elit. Facere, inventore a. Voluptatum.</h2>
+    </aside>
+    <footer>        <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Voluptate id eum officia at blanditiis ipsum harum. Assumenda at rem debitis unde fuga, id, ullam culpa reiciendis sapiente quasi doloremque labore! Optio repudiandae illum alias.</p>    </footer>
+</div>
+
+
+
+
+
+
+</body>
+</html>

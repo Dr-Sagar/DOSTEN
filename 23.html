@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+
+<style>
+
+
+    .cont{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        grid-template-rows: repeat(4, 1fr);
+        
+        
+        
+    }
+    
+    
+    .item{
+        background-color:green;
+        border: 2px solid black;
+        margin: 2px;
+        padding: 23px;
+
+    }
+
+
+
+
+    .item:first-child{
+
+        /* grid-column-start: 1;
+        grid-column-end: 3;
+        grid-row-start: 1;
+        grid-row-end: 3; */
+
+
+        grid-column: 1/span3;
+        grid-row: 1/span3; 
+    } 
+</style>
+
+
+
+
+</head>
+<body>
+    
+
+
+
+
+
+
+    <h5>Flex Box</h5>
+    <h5>CSS Grid Layout</h5>
+
+
+    <div class="cont">
+
+        <div class="item">this is item-1</div>
+        <div class="item">this is item-2</div>
+        <div class="item">this is item-3</div>
+        <div class="item">this is item-4</div>
+        <div class="item">this is item-5</div>
+        <div class="item">this is item-6</div>
+        <div class="item">this is item-7</div>
+        <div class="item">this is item-8</div>
+        <div class="item">this is item-9</div>
+    </div>
+
+
+
+
+    
+</body>
+</html>
