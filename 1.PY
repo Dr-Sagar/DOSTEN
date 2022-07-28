@@ -1,10 +1,5 @@
-# Histogram by matplotlib
+import codefalcon
 
-import numpy
-import matplotlib.pyplot as plt
+l= (sux(1,2))
 
-x = numpy.random.uniform(0.0,5.0,250)
-
-
-plt.hist(x,5)
-plt.show()
+print (l)
