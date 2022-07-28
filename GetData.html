@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DetData Documentation</title>
+
+
+    <script>
+        const api_url = ' https://api.spacexdata.com/v4/launches/';
+async function getSX() {
+    const response = await fetch(api_url);
+    const data = await response.json();
+    const {links, payloads } =data;
+    // console.log(data);
+    // console.table (data);
+    const kl =(console.table (data));
+
+
+    document.getElementById('a10').textContent=kl;
+}
+
+
+getSX()
+
+</script>
+
+
+</head> 
+<body>
+    
+
+<p style="text-align: center;">open the Console And reload the web-page 1 or 2 times</p>
+    <h3 id="a10"> </h3>
+
+
+</body>
+</html>
